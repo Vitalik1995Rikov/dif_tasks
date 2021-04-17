@@ -3,15 +3,14 @@ let num = 0;
 let maxNum = 0;
 
 
-for (let item in arr) {
-  if (arr[item] == 1) {
+for (let item of arr) {
+  if (item == 1) {
     num++;
-    maxNum = num;
-    console.log(num);
-    }
-    else {
-      console.log('не единичка');
+  } else {
       num = 0;
+    }
+    if (num > maxNum) {
+      maxNum = num;
     }
   }
 
