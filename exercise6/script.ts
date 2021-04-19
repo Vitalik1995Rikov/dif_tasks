@@ -29,4 +29,7 @@ export class LinkedList implements INodeList {
   }
 }
 
+let list = new LinkedList();
+list.prepend('1');
+console.log(list);
 
