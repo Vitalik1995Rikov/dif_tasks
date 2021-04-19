@@ -1,3 +1,4 @@
 Hello world
 <div [class.red] = "needRed">{{title}}</div>
 <button (click)="changeTitle()">Button</button>
+<input [value]="title" (input) = "title = $event.target.value">
