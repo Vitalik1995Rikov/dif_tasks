@@ -1,0 +1,6 @@
+<div class='list' *ngIf = 'toggle' [ngStyle]='{color: student.mark < 3 ? "red" : "black"}'>
+    <h2>{{student.surname + ' ' + student.name + ' ' + student.dadname}}</h2>
+    <p>{{student.birthday}}</p>
+    <p [ngStyle]='{color: student.mark < 3 ? "red" : "black"}'>{{student.mark}}</p>
+    <button (click)='deleteStudents()'>Delete</button>
+</div>

@@ -1,8 +1,8 @@
-
-<div class='container'>
-    <div *ngFor='let value of redux'></div>
+<h1>Students</h1>
+<hr>
+<div>
+    <app-students 
+    *ngFor='let iterStudent of students'
+    [student]='iterStudent'>
+    </app-students>
 </div>
-<form>
-    <input type="text">
-</form>
-

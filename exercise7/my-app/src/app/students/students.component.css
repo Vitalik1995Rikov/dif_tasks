@@ -1,0 +1,23 @@
+.list {
+    padding: 10px 10px 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #CCE6E8; 
+}
+
+.buttons {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 30px;  
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
